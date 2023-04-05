@@ -1,5 +1,7 @@
 # PowerApps-FontAwesomeIcons-Component
-Componente criado para adicionar os ícones gratuitos do Font Awesome
+Componente criado para adicionar os ícones gratuitos do Font Awesome no Power Apps Canvas.
+
+[Clique aqui baixar o arquivo](https://github.com/erfernandes/PowerApps-FontAwesomeIcons-Component/raw/main/Font%20Awesome%20Icons.msapp)
 
 ## Conteúdo
 
