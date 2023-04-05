@@ -7,7 +7,7 @@ Componente criado para adicionar os ícones gratuitos do Font Awesome
 - [Propriedades de entrada](#propriedades-de-entrada)
 - [Propriedades de saída](#propriedades-de-saída)
 - [Configuração inicial](#configuração-inicial)
-- [Utilizando em múltiplos componentes de imagem](#utilizando-em-múlitplos-componentes-de-imagem)
+- [Utilizando em múltiplos componentes de imagem](#utilizando-em-múltiplos-componentes-de-imagem)
 
 ### Propriedades de entrada
 
