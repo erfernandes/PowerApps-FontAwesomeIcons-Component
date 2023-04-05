@@ -3,7 +3,7 @@ Componente criado para adicionar os ícones gratuitos do Font Awesome
 
 ## Conteúdo
 
-- [Importando o componente](https://github.com/eduardoreisfernandes/Power-Apps-Toast-Notification-Component/blob/main/Importando%20o%20componente.md)
+- [Importando o componente](https://github.com/erfernandes/PowerApps-FontAwesomeIcons-Component/blob/main/Importando%20o%20componente.md)
 - [Propriedades de entrada](#propriedades-de-entrada)
 - [Propriedades de saída](#propriedades-de-saída)
 - [Configuração inicial](#configuração-inicial)
