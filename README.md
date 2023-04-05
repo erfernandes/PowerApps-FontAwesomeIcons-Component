@@ -22,13 +22,13 @@ Componente criado para adicionar os ícones gratuitos do Font Awesome
 
 | Nome de exibição | Propriedade | Descrição | Tipo de Dados | Default |
 | - | - | - | - | - |
-| Styles | Styles | Enum para ser usado na propriedade de entrada "Icon Style" | Registro | [ver registro](https://github.com/eduardoreisfernandes/Power-Apps-Toast-Notification-Component/blob/main/Registros/NotificationTypes.md) |
+| Styles | Styles | Enum para ser usado na propriedade de entrada "Icon Style" | Registro | [ver registro](https://github.com/erfernandes/PowerApps-FontAwesomeIcons-Component/blob/main/Registros/Styles.md) |
 | Style Source | StyleSource | Texto com a fonte-face usada conforme a seleção do estilo (implícito) | Texto | "" |
 | Version | Version | Exibe a versão do Font Awesome que está sendo usada | Texto | "fontawesome-free-6.4.0-desktop" |
-| Cursor Types | CursorTypes | Enum para ser usado na propriedade de entrada "Cursor Type" | Registro | [ver registro](https://github.com/eduardoreisfernandes/Power-Apps-Toast-Notification-Component/blob/main/Registros/NotificationTypes.md) |
-| Icons | Icons | Enum para ser usado na propriedade de entrada "Icon Name" | Registro | [ver registro](https://github.com/eduardoreisfernandes/Power-Apps-Toast-Notification-Component/blob/main/Registros/NotificationTypes.md) |
+| Cursor Types | CursorTypes | Enum para ser usado na propriedade de entrada "Cursor Type" | Registro | [ver registro](https://github.com/erfernandes/PowerApps-FontAwesomeIcons-Component/blob/main/Registros/Cursor%20Types.md) |
+| Icons | Icons | Enum para ser usado na propriedade de entrada "Icon Name" | Registro | [ver registro](https://github.com/erfernandes/PowerApps-FontAwesomeIcons-Component/blob/main/Registros/Icons.md) |
 | Image | Image | Retorna a imagem do ícone configurado no componente, para ser usado em componentes de imagem no Power Apps | Imagem | "" |
-| RenderIcon | RenderIcon | Retorna o ícone para ser usado em vários componentes de imagem, configurando os parâmetros individualmente | Texto | "" |
+| RenderIcon | RenderIcon | Retorna o ícone para ser usado em vários componentes de imagem, configurando os parâmetros individualmente | Booleano | false |
 
 ### Configuração inicial
 
