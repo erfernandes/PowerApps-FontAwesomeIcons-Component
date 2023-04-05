@@ -1,4 +1,4 @@
-### Estilos
+### Styles
 
 1. A referência é a mesma dos filtros do Font Awesome na versão gratuita.
 
