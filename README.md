@@ -7,6 +7,7 @@ Componente criado para adicionar os ícones gratuitos do Font Awesome
 - [Propriedades de entrada](#propriedades-de-entrada)
 - [Propriedades de saída](#propriedades-de-saída)
 - [Configuração inicial](#configuração-inicial)
+- [Utilizando em múltiplos componentes de imagem](#utilizando-em-múlitplos-componentes-de-imagem)
 
 ### Propriedades de entrada
 
@@ -70,3 +71,28 @@ Self.CursorTypes.Pointer
 5. A propriedade **OnSelect** é uma propriedade de comportamento. Indica qual função deverá ser executada ao clicar no componente. Apesar do tipo estar marcado como booleano, essa propriedade aceitará as funções que forem passadas nela.
 
 ![image](https://user-images.githubusercontent.com/47257185/230203536-a7632970-2978-4eac-b900-2c725aac81ea.png)
+
+### Utilizando em múltiplos componentes de imagem
+
+Por padrão, o componente exibe o ícone logo após a configuração inicial ser realizada. Desse jeito, cada ícone utilizado precisa ser um componente novo. O problema disso é que existem controles no Power Apps que não aceitam componentes dentro deles, como os Formulários, por exemplo. 
+
+Para contornar isso, o componente possui uma propriedade de saída **_RenderIcon_** que retorna o código SVG da imagem de acordo com os parâmetros passados.
+
+**IMPORTANTE.:** para funcionar, é necessário que ao menos 1 componente esteja criado na tela, sem parametrização, pois este será usado apenas como referência para os componentes de imagem que criados. 
+
+1. Primeiramente, criamos o ícone na tela, sem nenhuma parametrização.
+
+![image](https://user-images.githubusercontent.com/47257185/230207908-95b84549-eb90-40f5-abe8-17c50812720d.png)
+
+2. O componente criado será usado como referência para os componentes de imagem que criarmos. No componente de imagem, vamos utilizar a propriedade de saída **_RenderIcon_** do componente referenciado.
+
+![image](https://user-images.githubusercontent.com/47257185/230208426-9404402c-66bf-46df-b662-ff9c3432b2df.png)
+
+A propriedade **_RenderIcon_** possui 3 parâmetros:
+  - **IconStyle**
+  - **IconName**
+  - **HexColor**
+
+Com o componente sendo usado apenas como referência, podemos criar quantos componentes de imagem quisermos, apenas passando os parâmetros para a referência.
+
+![image](https://user-images.githubusercontent.com/47257185/230208932-a5d237b2-689e-4684-a9c5-b34d3f59f21a.png)
